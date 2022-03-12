@@ -13,4 +13,8 @@ public class Account {
 		out.print(balance);
 		out.println();
 	}
+	
+	public double getInterset(double percentageRate) {
+		return balance*percentageRate / 100.00;
+	}
 }

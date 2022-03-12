@@ -16,5 +16,9 @@ public class UseAccount {
 		myAccount.display();
 		
 		yourAccount.display();
+		
+		out.print("plus $");
+		out.print(myAccount.getInterset(5));
+		out.println(" income");
 	}
 }
