@@ -5,7 +5,7 @@ public class Account {
 	String adress;
 	double balance;
 	
-	public void print() {
+	public void display() {
 		out.print(name);
 		out.print(" (");
 		out.print(adress);

@@ -13,8 +13,8 @@ public class UseAccount {
 		yourAccount.adress = "111 Consumer Street";
 		yourAccount.balance = 55.63;
 		
-		myAccount.print();
+		myAccount.display();
 		
-		yourAccount.print();
+		yourAccount.display();
 	}
 }
