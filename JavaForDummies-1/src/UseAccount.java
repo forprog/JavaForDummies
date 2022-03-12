@@ -13,19 +13,8 @@ public class UseAccount {
 		yourAccount.adress = "111 Consumer Street";
 		yourAccount.balance = 55.63;
 		
-		out.print(myAccount.name);
-		out.print(" (");
-		out.print(myAccount.adress);
-		out.print(") account amount is $");
-		out.print(myAccount.balance);
+		myAccount.print();
 		
-		out.println();
-		
-		out.print(yourAccount.name);
-		out.print(" (");
-		out.print(yourAccount.adress);
-		out.print(") account amount is $");
-		out.print(yourAccount.balance);
-
+		yourAccount.print();
 	}
 }
