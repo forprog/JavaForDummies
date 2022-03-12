@@ -2,12 +2,9 @@ import static java.lang.System.out;
 
 public class UseAccount {
 	public static void main(String args[]) {
-		Account myAccount;
-		Account yourAccount;
+		Account myAccount = new Account();
+		Account yourAccount = new Account();
 
-		myAccount = new Account();
-		yourAccount = new Account();
-		
 		myAccount.name = "Barry Berd";
 		myAccount.adress = "222 Cyberspace lane";
 		myAccount.balance = 24.02;
