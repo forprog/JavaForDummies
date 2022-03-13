@@ -5,7 +5,7 @@ import static java.lang.System.out;
 public class DeleteEvidence {
 
 	public static void main(String args[]) {
-		File evidence = new File("cookedBooks.txt");
+		File evidence = new File("C:\\","cookedBooks.txt");
 		Scanner keyboard = new Scanner(System.in);
 		char reply;
 		
