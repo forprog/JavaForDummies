@@ -5,14 +5,14 @@ public class UseAccount {
 		Account myAccount = new Account();
 		Account yourAccount = new Account();
 
-		myAccount.name = "Barry Berd";
-		myAccount.adress = "222 Cyberspace lane";
-		myAccount.balance = 24.02;
+		myAccount.setName("Barry Berd");
+		myAccount.setAdress("222 Cyberspace lane");
+		myAccount.setBalance(24.02);
 		
-		yourAccount.name = "Jane Smith";
-		yourAccount.adress = "111 Consumer Street";
-		yourAccount.balance = 55.63;
-		
+		yourAccount.setName("Jane Smith");
+		yourAccount.setAdress("111 Consumer Street");
+		yourAccount.setBalance(55.63);
+
 		myAccount.display();
 		yourAccount.display();
 		

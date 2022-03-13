@@ -1,20 +1,47 @@
 import static java.lang.System.out;
 
 public class Account {
-	String name;
-	String adress;
-	double balance;
+	private String name;
+	private String adress;
+	private double balance;
 	
+	public void setName(String n) {
+		if (!n.equals("")) {
+			name = n;
+		}
+	}
+	
+	public String getName() {
+		return name;
+	}
+	
+
+	public String getAdress() {
+		return adress;
+	}
+
+	public void setAdress(String adress) {
+		this.adress = adress;
+	}
+
+	public double getBalance() {
+		return balance;
+	}
+
+	public void setBalance(double balance) {
+		this.balance = balance;
+	}
+
 	public void display() {
 		out.print(name);
 		out.print(" (");
-		out.print(adress);
+		out.print(getAdress());
 		out.print(") account amount is $");
-		out.print(balance);
+		out.print(getBalance());
 		out.println();
 	}
 	
 	public double getInterset(double percentageRate) {
-		return balance*percentageRate / 100.00;
+		return getBalance()*percentageRate / 100.00;
 	}
 }
