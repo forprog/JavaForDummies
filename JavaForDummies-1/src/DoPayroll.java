@@ -22,6 +22,7 @@ public class DoPayroll {
 		anEmployee.setJobTitle(aScanner.nextLine());
 		anEmployee.cutCheck(aScanner.nextDouble());
 		aScanner.nextLine();
+		// оооо
 	}
 
 }
