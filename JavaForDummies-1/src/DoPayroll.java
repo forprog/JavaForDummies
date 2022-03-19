@@ -23,6 +23,7 @@ public class DoPayroll {
 		anEmployee.cutCheck(aScanner.nextDouble());
 		aScanner.nextLine();
 		// оооо
+		// say 1
 	}
 
 }
