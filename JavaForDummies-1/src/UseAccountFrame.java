@@ -1,5 +1,3 @@
-import java.util.Random;
-
 import com.allmycode.dummiesframe.DummiesFrame;
 
 public class UseAccountFrame {
