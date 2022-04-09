@@ -2,18 +2,21 @@ public class UseTemperatureNice {
 
 	public static void main(String[] args) {
 		
-		TemperatureNice temp = new TemperatureNice();
+		TemperatureEvenNicer temp = new TemperatureEvenNicer();
 		temp.setNumber(70.0);
 		temp.setScale(TempScale.FAHRENHEIT);
 		temp.display();
 		
-		temp = new TemperatureNice(32.0);
+		temp.convetTo(TempScale.CELSIUS);
 		temp.display();
 		
-		temp = new TemperatureNice(TempScale.CELSIUS);
+		temp.convetTo(TempScale.FAHRENHEIT);
 		temp.display();
 
-		temp = new TemperatureNice(2.73,TempScale.KELVIN);
+		temp = new TemperatureEvenNicer(TempScale.CELSIUS);
+		temp.display();
+
+		temp.convetTo(TempScale.FAHRENHEIT);
 		temp.display();
 	}
 
