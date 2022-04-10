@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class FindVacancy {
 
 	public static void main(String[] args) throws FileNotFoundException {
-		int[] guests = FillRoomsFromFile.FillRooms();
+		int[] guests = FillIntArrayFromFile.FillRooms();
 		
 		int roomNum = 0;
 		while (roomNum < 10 && guests[roomNum] != 0) {
