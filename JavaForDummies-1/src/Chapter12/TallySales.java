@@ -11,7 +11,7 @@ public class TallySales {
 		
 		fillTheList(sales);
 		
-		double total = sales.stream()
+		double total = sales.parallelStream()
 				.filter((sale) -> sale.getItem().equals("DVD"))
 				.map((sale) -> sale.getPrice())
 				.reduce(0.0, (price1,price2) -> price1+price2);
