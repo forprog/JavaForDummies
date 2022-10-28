@@ -1,7 +1,6 @@
 package Chapter12;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 
 public class ArrayListIStringInsert {
 

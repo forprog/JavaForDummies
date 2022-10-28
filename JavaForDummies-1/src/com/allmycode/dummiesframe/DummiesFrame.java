@@ -255,11 +255,11 @@ public class DummiesFrame extends JFrame
     try {
       if (types[whichRow] == int.class
           || types[whichRow] == Integer.class) {
-        int x = Integer.valueOf(text);
+        Integer.valueOf(text);
       }
       if (types[whichRow] == double.class
           || types[whichRow] == Double.class) {
-        double x = Double.valueOf(text);
+        Double.valueOf(text);
       }
       if (types[whichRow] == char.class
           || types[whichRow] == Character.class) {
@@ -276,19 +276,19 @@ public class DummiesFrame extends JFrame
       }
       if (types[whichRow] == short.class
           || types[whichRow] == Short.class) {
-        short x = Short.valueOf(text);
+        Short.valueOf(text);
       }
       if (types[whichRow] == long.class
           || types[whichRow] == Long.class) {
-        long x = Long.valueOf(text);
+        Long.valueOf(text);
       }
       if (types[whichRow] == byte.class
           || types[whichRow] == Byte.class) {
-        byte x = Byte.valueOf(text);
+        Byte.valueOf(text);
       }
       if (types[whichRow] == float.class
           || types[whichRow] == Float.class) {
-        float x = Float.valueOf(text);
+        Float.valueOf(text);
       }
 
       textField[whichRow].setBorder(
